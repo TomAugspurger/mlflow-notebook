@@ -1,0 +1,5 @@
+name: mlflow-notebook
+
+entry_points:
+  main:
+    command: "jupyter nbconvert mlflow-example.ipynb --execute --to=html --post=mlflow_nbconvert.MLFlowPostProcessor"
